@@ -40,8 +40,8 @@ allure serve allure_results
 cd load
 locust --host=https://www.n11.com -f n11_load_test.py
 ```
-Go to `http://0.0.0.0:8089` and start test.
 
-Projects were done in one to not create few different repositories for different subtasks
+#### Notes
+Projects were done all in one to not create few different repositories for different subtasks
 
 From CI/CD perspective drivers will be configured in different way, such approach written here is only for local development and for test task purposes. 
